@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>PreLoad Demo</title>
+
+    <link rel="stylesheet" href="css/common.css">
+
+</head>
+
+<body>
+
+<div class="preload">
+    <div class="loading-progress">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+
+    <div id="progressText"></div>
+</div>
+
+<div class="audio" style="display: none;">
+    <audio id="audio1" loop="loop">
+        <source type="audio/mpeg" src="audio/bg.mp3">
+    </audio>
+</div>
+
+<div class="main-content" style="display: none;font-size: 20px; text-align: center; margin-top: 100px;">
+    加载完毕
+</div>
+
+<div id="land" class="land">
+    <p>请使用竖屏</p>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/libs/zepto-min.js"></script>
+<script type="text/javascript" src="js/libs/PreLoad.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+</html>
